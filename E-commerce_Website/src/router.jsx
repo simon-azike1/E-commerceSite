@@ -1,8 +1,8 @@
 import React from 'react';
 import {createBrowserRouter} from 'react-router-dom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import LandingPage from '/components/Landingpage';
-import CheckoutPage from './components/checkoutpage';
+import LandingPage from './components/Landingpage.jsx';
+import CheckoutPage from './components/checkoutpage.jsx';
 import Receipt from './components/receipt';
 import CartIcon from './components/carticon';
 import ProductCard from './components/productcard';
